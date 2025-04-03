@@ -8,8 +8,8 @@ const Hero = () => {
       id="home" 
       className="min-h-screen flex flex-col justify-center relative overflow-hidden bg-gradient-to-br from-background to-muted dark:from-gray-900 dark:to-gray-800 transition-colors duration-500"
     >
-      <div className="container mx-auto px-6 z-10">
-        <div className="max-w-3xl">
+      <div className="container mx-auto px-6 z-10 flex flex-col lg:flex-row items-center gap-12">
+        <div className="max-w-3xl lg:w-1/2">
           <h2 className="text-lg md:text-xl font-medium text-primary animate-fade-in-up">
             Hello, I'm
           </h2>
@@ -35,6 +35,21 @@ const Hero = () => {
             >
               Get In Touch
             </a>
+          </div>
+        </div>
+        
+        <div className="lg:w-1/2 flex justify-center animate-fade-in-up animate-delay-500">
+          <div className="relative w-full max-w-md aspect-square">
+            <div className="absolute inset-0 bg-primary/20 rounded-full -z-10 blur-3xl"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              alt="Professional developer working on laptop" 
+              className="rounded-2xl object-cover shadow-xl border border-gray-200 dark:border-gray-800 transform hover:scale-[1.02] transition-transform duration-500 ease-in-out"
+              style={{ width: '100%', height: '100%' }}
+            />
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center text-white text-xl font-bold border-4 border-background dark:border-gray-900 shadow-lg animate-pulse">
+              <span>10+<br/>Years</span>
+            </div>
           </div>
         </div>
       </div>
