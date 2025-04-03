@@ -12,7 +12,7 @@ const ThemeToggle = () => {
       aria-label="Toggle theme" 
       pressed={theme === 'dark'}
       onPressedChange={toggleTheme}
-      className="rounded-full p-2"
+      className="rounded-full p-2 hover:bg-muted/80 transition-colors"
     >
       {theme === 'dark' ? (
         <Moon size={18} className="text-foreground"/>
