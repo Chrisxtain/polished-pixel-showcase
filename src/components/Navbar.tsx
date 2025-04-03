@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -39,7 +40,7 @@ const Navbar = () => {
       className={cn(
         'fixed top-0 w-full z-50 transition-all duration-300',
         isScrolled
-          ? 'bg-white/90 backdrop-blur-md shadow-sm'
+          ? 'bg-background/90 backdrop-blur-md shadow-sm'
           : 'bg-transparent'
       )}
     >
@@ -50,38 +51,46 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
-                className="text-gray-700 hover:text-primary transition-colors"
+                className="text-foreground hover:text-primary transition-colors"
               >
                 {item.label}
               </a>
             ))}
+            <div className="ml-4">
+              <ThemeToggle />
+            </div>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button 
-            className="md:hidden text-gray-700 p-2"
-            onClick={toggleMobileMenu}
-            aria-label="Toggle menu"
-          >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          {/* Mobile Menu Button and Theme Toggle */}
+          <div className="flex items-center md:hidden">
+            <div className="mr-4">
+              <ThemeToggle />
+            </div>
+            <button 
+              className="text-foreground p-2"
+              onClick={toggleMobileMenu}
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Mobile Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-white shadow-lg">
+        <div className="md:hidden bg-background shadow-lg animate-fade-in">
           <div className="py-2 px-6 space-y-3">
             {navItems.map((item) => (
               <a
                 key={item.label}
                 href={item.href}
-                className="block py-2 text-gray-700 hover:text-primary transition-colors"
+                className="block py-2 text-foreground hover:text-primary transition-colors"
                 onClick={toggleMobileMenu}
               >
                 {item.label}
