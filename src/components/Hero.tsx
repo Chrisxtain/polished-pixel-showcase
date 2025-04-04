@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
         
         <div className="lg:w-1/2 flex justify-center animate-fade-in-up animate-delay-500">
-          <div className="relative w-full max-w-md aspect-square">
+          <div className="relative w-full max-w-sm aspect-square">
             <div className="absolute inset-0 bg-primary/20 rounded-full -z-10 blur-3xl"></div>
             <img 
               src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
@@ -47,7 +47,7 @@ const Hero = () => {
               className="rounded-2xl object-cover shadow-xl border border-border transform hover:scale-[1.02] transition-transform duration-500 ease-in-out"
               style={{ width: '100%', height: '100%' }}
             />
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-xl font-bold border-4 border-background dark:border-background/80 shadow-lg animate-pulse">
+            <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-primary rounded-full flex items-center justify-center text-primary-foreground text-sm font-bold border-4 border-background dark:border-background/80 shadow-lg animate-pulse">
               <span>10+<br/>Years</span>
             </div>
           </div>
