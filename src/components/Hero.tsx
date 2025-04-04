@@ -14,7 +14,7 @@ const Hero = () => {
             Hello, I'm
           </h2>
           <h1 className="text-4xl md:text-6xl font-bold mt-2 animate-fade-in-up animate-delay-100">
-            Jane Doe
+            Tochukwu Christian
           </h1>
           <p className="text-2xl md:text-3xl text-foreground/80 mt-4 animate-fade-in-up animate-delay-200">
             Frontend Developer & UI/UX Designer

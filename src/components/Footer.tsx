@@ -27,7 +27,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-gray-400 dark:text-gray-500 text-sm animate-fade-in">
-              &copy; {year} Jane Doe. All rights reserved.
+              &copy; {year} Tochukwu Christian. All rights reserved.
             </p>
           </div>
         </div>
