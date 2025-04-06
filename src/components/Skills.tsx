@@ -8,7 +8,7 @@ const Skills = () => {
       id: 1,
       title: 'Frontend Development',
       icon: <Code className="w-8 h-8 text-primary" />,
-      skills: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS', 'Redux'],
+      skills: ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'Next.js', 'Tailwind CSS'],
     },
     {
       id: 2,
@@ -20,13 +20,13 @@ const Skills = () => {
       id: 3,
       title: 'Backend Development',
       icon: <Database className="w-8 h-8 text-primary" />,
-      skills: ['Node.js', 'Express', 'MongoDB', 'Firebase', 'RESTful APIs', 'GraphQL'],
+      skills: ['Node.js', 'Express', 'MongoDB', 'MySQL', 'RESTful APIs', 'PostgreSQL'],
     },
     {
       id: 4,
       title: 'Tools & Platforms',
       icon: <Settings className="w-8 h-8 text-primary" />,
-      skills: ['Git', 'GitHub', 'VS Code', 'Webpack', 'Docker', 'AWS', 'Vercel'],
+      skills: ['Git', 'GitHub', 'VS Code', 'Webpack', 'Vercel'],
     },
     {
       id: 5,
@@ -38,13 +38,13 @@ const Skills = () => {
       id: 6,
       title: 'Soft Skills',
       icon: <Users className="w-8 h-8 text-primary" />,
-      skills: ['Team Collaboration', 'Project Management', 'Communication', 'Problem-Solving', 'Time Management'],
+      skills: ['Shopify', 'Team Collaboration', 'Project Management', 'Communication', 'Problem-Solving', 'Time Management'],
     },
     {
       id: 7,
       title: 'Copywriting',
       icon: <Edit className="w-8 h-8 text-primary" />,
-      skills: ['Content Creation', 'Blog Writing', 'Technical Writing', 'SEO Optimization', 'Marketing Copy'],
+      skills: ['Content Creation', 'Blog Writing', 'Technical Writing', 'SEO Optimization', 'Proofreading', 'Editing'],
     },
   ];
 

@@ -13,11 +13,11 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <Avatar className="w-80 h-80 border-4 border-primary/20 shadow-xl">
+            <Avatar className="w-80 h-100 border-4 border-primary/20 shadow-xl">
               <AvatarImage 
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" 
+                src="https://media.licdn.com/dms/image/v2/D4E22AQFVXMxPNKd9Ag/feedshare-shrink_1280/B4EZXeBx85GgAk-/0/1743186769505?e=1746662400&v=beta&t=m8O_GGkme-qvCOIpm6ysdE--cmRoBuILR22afCVVyB0" 
                 alt="Profile"
-                className="object-cover"
+                className="object-cover object-top"
               />
               <AvatarFallback>TC</AvatarFallback>
             </Avatar>
@@ -26,26 +26,26 @@ const About = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-foreground/80 mb-6">
-              I'm a passionate frontend developer and UI/UX designer with over 5 years of experience creating beautiful, functional web interfaces. Based in San Francisco, I enjoy transforming complex problems into simple, intuitive designs.
+              I'm a passionate frontend developer and UI/UX designer with over 2 years of experience creating beautiful, functional web solutions. Based in Nigeria, I enjoy transforming complex problems into simple, intuitive designs.
             </p>
 
             <p className="text-foreground/80 mb-6">
-              My journey in web development began at Stanford University, where I studied Computer Science with a focus on Human-Computer Interaction. Since then, I've worked with startups and established companies to build products that users love.
+              My journey in web development began at Nnamdi Azikiwe University, where I studied Computer Science with a focus on Software development. Since then, I've worked with startups and established companies to build products and softwares that users love.
             </p>
 
             <p className="text-foreground/80 mb-6">
-              When I'm not coding, you'll find me hiking in California's beautiful national parks, experimenting with photography, or attending web development meetups in the Bay Area.
+              When I'm not coding, you'll find me playing games, experimenting with photography, watching movies, listening to music or attending web development meetups in the Area.
             </p>
 
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <h4 className="font-bold text-foreground mb-2">Education</h4>
-                <p className="text-foreground/80">Stanford University</p>
-                <p className="text-foreground/60">B.S. Computer Science, 2018</p>
+                <p className="text-foreground/80">Nnamdi Azikiwe University. Awka</p>
+                <p className="text-foreground/60">B.S. Computer Science, 2021</p>
               </div>
               <div>
                 <h4 className="font-bold text-foreground mb-2">Experience</h4>
-                <p className="text-foreground/80">5+ Years</p>
+                <p className="text-foreground/80">2+ Years</p>
                 <p className="text-foreground/60">Frontend Development</p>
               </div>
             </div>
