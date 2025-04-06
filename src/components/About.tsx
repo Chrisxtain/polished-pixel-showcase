@@ -13,7 +13,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="flex justify-center">
-            <Avatar className="w-64 h-64 border-4 border-primary/20 shadow-xl">
+            <Avatar className="w-80 h-80 border-4 border-primary/20 shadow-xl">
               <AvatarImage 
                 src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" 
                 alt="Profile"
