@@ -1,18 +1,13 @@
-# Welcome to your Lovable project
+# Welcome To My Little Portfolio Website 
+This is a clean, responsive portfolio website built using React and Tailwind CSS to showcase my skills, projects, and professional background. Designed with a focus on minimalism, smooth user experience, and performance.
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/d3ce325f-ca22-48bd-b851-5a212c499ad8
+**URL**: https://folio-display.netlify.app/
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/d3ce325f-ca22-48bd-b851-5a212c499ad8) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -60,14 +55,17 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## ✨ Features
+Landing page with animated intro
 
-Simply open [Lovable](https://lovable.dev/projects/d3ce325f-ca22-48bd-b851-5a212c499ad8) and click on Share -> Publish.
+About section with a brief bio and skills overview
 
-## Can I connect a custom domain to my Lovable project?
+Projects section with live demos and GitHub links
 
-Yes it is!
+Contact form with validation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Mobile-first responsive design
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Smooth scrolling and interactive UI
+
+SEO-friendly structure
